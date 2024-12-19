@@ -1,4 +1,4 @@
-<u>**D2 14.12.24 7:30pm-9:45pm**</u>
+### <u>**D2 14.12.24 7:30pm-9:45pm**</u>
 1. Working with GIT and Visual Studio Code
     * Linked the repository to Visual Studio Code and practiced Git commands:
         * **`git add.`** - Stages changes

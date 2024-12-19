@@ -1,66 +1,75 @@
-<u>**D1 - 13.12.24 7:30pm to 9:00pm** </u>
-Team meeting with Anu and the Project teams
-First Anu was guiding us to register & download essential tools & account like
- Visual Studio Code, Git Account , download Git and AWS account.
-Then Anu explain what is GIT and how it is works.
+### **D1 - 13.12.24 7:30 PM to 9:00 PM**
+**Team Meeting with Anu and Project Teams**
 
-<u>**Learnt GIT term like**</u> :
+Anu guided us to **register** and **download** essential tools and accounts:
+- Visual Studio Code
+- Git Account
+- Git Software
+- AWS Account
 
-**- Repository:**
-Storage space where the project files and version history are tracked using GIT.
+Anu then explained **what Git is and how it works**.
 
-**- Git :**
-A version of control system that track change in code and for collaborate and manage project.
+---
 
-**- Commit :**
-is a snapshot of change made to files in GIT repository,like saving the work.
+### **Git Terminology Learnt**
 
-**- Pull:**
-Retrives the latestchanges from a remote repository and merges with local repository.
+- **Repository:**
+  A storage space where project files and version history are tracked using Git.
 
-**- Branch :**
-Seperate line of development in GIT.Once the work completed, branch can be merged back.
+- **Git:**
+  A version control system that tracks changes in code and helps collaborate and manage projects.
 
-**- Push :**
-Upload local commits to a remote  repository like GitHub to allow ither to access the update.
+- **Commit:**
+  A snapshot of changes made to files in a Git repository, similar to saving your work.
 
-**- GIT add:**
-Add specific files or changes to the staging area , preparing for a commit.
+- **Pull:**
+  Retrieves the latest changes from a remote repository and merges them with the local repository.
 
-![Git Repository Explaination](<Assets/Git repository explaination.png>)
+- **Branch:**
+  A separate line of development in Git. Once work is completed, branches can be merged back.
 
-***
+- **Push:**
+  Uploads local commits to a remote repository, such as GitHub, to allow others to access updates.
 
-Then we create our new Repository in GitHub with Lego-city (Public)
-and linked the Git with new Visual Studio Code with steps below:
+- **Git Add:**
+  Adds specific files or changes to the staging area, preparing for a commit.
 
-Open downloaded GIT software in computer and open GIT Bash.
-In order to get the - Generate public/private ed25519 key pair and OPENSSH PRIVATE KEY
-Key in code below:
+![alt text](<Assets/Git repository explaination.png>)
 
-*  $ ssh-keygen -t ed25519 -C "lee.itcloud2024@gmail.com"
-* -- $ cat /c/users/abbyr/.ssh/id_ed25519
-* -- $ cat /c/users/abbyr/.ssh/id_ed25519.pub ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC4qqAJ/19lGYZ0QwXAnY7+vO9o8fDBhPIu0QFxp1h78 lee.itcloud2024@gmail.com
-* $ ssh -T git@github.com
+---
 
-Then type Yes
+### **Practical Steps Followed**
 
-![Create SSH key](<Assets/Create SSH key.png>)
+1. **Creating a New Repository on GitHub:**
+   - Created a repository named **Lego-city** (Public).
+   - Linked Git with Visual Studio Code.
 
-Then open Github Account > Click on top right account icon > Click on Setting
-On the left panel , click on SSH and GPG keys
-Add SSH key with SHA256:MlQsHtE3KstGLP+yJU6dK41pPEcCTE8BLfXpQd5RCYI , Then added.
+2. **Generating SSH Keys for GitHub:**
+   - Open Git Bash and run the following commands:
+     ```bash
+     $ ssh-keygen -t edxxxxx -C "your_email@example.com"
+     ```
+     - Private keys are sensitive; do **not** share the content of `id_edxxxxx` or `id_edxxxxx.pub`.
 
-***
+  ![alt text](<Assets/Create SSH key.png>)
 
-Then open create a new folder in Computer under name of Lee
-In the Lee folder, press Shift key + rightclick mouse , select [Open GIT Bash Here]
-In the GIT Bash type code below:
-$ git clone https://github.com/anuvindhs/TechWithAnuvindh.git
-Then will Complete clone into 'TechWithAnuvindh'
+   - To verify connection:
+     ```bash
+     $ ssh -T git@github.com
+     ```
+     Select "Yes" when prompted.
 
-![Clone into 'TechWithAnuvindh'](<Assets/Cloning into 'TechWithAnuvindh'.png>)
+3. **Adding SSH Key to GitHub:**
+   - Open **GitHub Account** > Settings > SSH and GPG Keys.
+   - Add the generated public key securely.
 
-Open Visual Studio Code > Open Folder > lee
-Under Lee folder > create new folder 03 Lee
-Under 03 Lee Folder > create a Day1.txt to create this note about what we have learnt today.
+---
+
+### **Cloning Repository into Local System**
+
+1. Created a folder named **Lee** on the computer.
+2. Opened Git Bash in the folder and cloned the repository:
+   ```bash
+   $ git clone https://github.com/anuvindhs/TechWithAnuvindh.git
+
+![alt text](<Assets/Cloning into 'TechWithAnuvindh'.png>)
