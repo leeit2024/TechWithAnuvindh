@@ -24,6 +24,23 @@ Key Commands:
 &nbsp;
 * **Website Deployment:**
 Deployed a sample website using Git and Apache server and understood the importance of Git in managing deployments.
+&nbsp;
+#### Brief explaination of below:
+**1. EC2:**
+  EC2 is Amazon Elastic Compute Cloud (EC2) is a service by Amazon Web Services (AWS) that use to run virtual computers (called instances in the AWS) in the cloud. These instances use to to host websites, applications, or anything else as a regular computer but this is in cloud. Normally it only pay for the time use.
+  &nbsp;
+**2. LAMP SERVER:**
+A LAMP server is a setup for hosting websites. It stands for:
+
+Linux: The operating system.
+Apache: The software that serves web pages to users.
+MySQL: A database to store information
+PHP: A language to create dynamic websites like login systems
+All four work together to run websites.
+
+**3.GIT:**
+Git is a tool that helps to manage code changes. It tracks the work with save your progress, work with others without overwriting each other's changes,
+Undo mistakes and also use "push" to make changes to a remote storage like GitHub and "pull" updates from others to the local computer.
 ***
 ### Details Steps:
 #### Step 1 : Create and Launch an EC2 Instance
@@ -38,26 +55,35 @@ Deployed a sample website using Git and Apache server and understood the importa
 SSH (Port 22) → Source: My IP (for secure SSH access).
 HTTP (Port 80) → Source: 0.0.0.0/0 (for public web access).
 * Click Launch.
+![alt text](<1- Launch EC2.png>)
+
 &nbsp;
 
 #### Step 2 :Connect to the EC2 Instance
 * Go to the AWS EC2 Console.
 * Select the EC2 instance and click Connect.
 * Use EC2 Instance Connect to log into the server.
+![alt text](<connect ec2.png>)
 &nbsp;
+
 
 #### Step 3: Install Git and Set Up the Script
 * Update the System: **`sudo apt-get update`**
+![](<get update.png>)
+
 * Install Git : **`sudo apt install git-all -y`**
+![alt text](<install git.png>)
 * Clone the Script Repository:
 **`git clone https://github.com/anuvindhs/GFS-Moo`**
+![alt text](<git clone.png>)
 * Navigate to the Project Directory:
  **`ls`**
 **`cd GFS-Moo/`**
 **`ls`**
 * Set Script Permissions: **`sudo chmod +x install.sh`**
+![alt text](chmod.png)
 * Run the Installation Script : **`./install.sh`** .When prompted, type 1 to install the LAMP server.
-
+![alt text](<install lamp.png>)
 * Restart Apache: **`sudo service apache2 restart`**
 &nbsp;
 
@@ -80,6 +106,7 @@ Copy the Public DNS of your instance from the EC2 console.**`ssh -i "webserver m
 **`Ctrl + X `** --> Exit
 *Restart Apache to ensure changes take effect:
 **`sudo systemctl restart apache2`**
+![alt text](nano.png)
 &nbsp;
 
 #### Step 6: Verify in the Browser
