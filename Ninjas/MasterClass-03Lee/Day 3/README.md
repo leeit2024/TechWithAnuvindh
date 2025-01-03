@@ -1,4 +1,4 @@
-### <u>**D3 18.12.24 5:30pm-7:00pm**</u>
+### <u>**D3 18.12.24 5:30pm-7:30pm**</u>
 **Review GitHub Best Practices**
 * How to review Pull Request and validated changes.
 * Importance of not exposing private or sensitive information such as SSH keys, emails, and public keys in repositories.
@@ -55,7 +55,8 @@ Undo mistakes and also use "push" to make changes to a remote storage like GitHu
 SSH (Port 22) → Source: My IP (for secure SSH access).
 HTTP (Port 80) → Source: 0.0.0.0/0 (for public web access).
 * Click Launch.
-![alt text](<1- Launch EC2.png>)
+![alt text](<Assets/1- Launch EC2.png>)
+![alt text](<Assets/2- Launch EC2.png>)
 
 &nbsp;
 
@@ -63,27 +64,28 @@ HTTP (Port 80) → Source: 0.0.0.0/0 (for public web access).
 * Go to the AWS EC2 Console.
 * Select the EC2 instance and click Connect.
 * Use EC2 Instance Connect to log into the server.
-![alt text](<connect ec2.png>)
+![alt text](<Assets/connect ec2.png>)
 &nbsp;
 
 
 #### Step 3: Install Git and Set Up the Script
 * Update the System: **`sudo apt-get update`**
-![](<get update.png>)
+![alt text](<Assets/get update.png>)
+
 
 * Install Git : **`sudo apt install git-all -y`**
-![alt text](<install git.png>)
+![alt text](<Assets/install git.png>)
 * Clone the Script Repository:
 **`git clone https://github.com/anuvindhs/GFS-Moo`**
-![alt text](<git clone.png>)
+![alt text](<Assets/git clone.png>)
 * Navigate to the Project Directory:
  **`ls`**
 **`cd GFS-Moo/`**
 **`ls`**
 * Set Script Permissions: **`sudo chmod +x install.sh`**
-![alt text](chmod.png)
+![alt text](Assets/chmod.png)
 * Run the Installation Script : **`./install.sh`** .When prompted, type 1 to install the LAMP server.
-![alt text](<install lamp.png>)
+![alt text](<Assets/install lamp.png>)
 * Restart Apache: **`sudo service apache2 restart`**
 &nbsp;
 
@@ -106,7 +108,7 @@ Copy the Public DNS of your instance from the EC2 console.**`ssh -i "webserver m
 **`Ctrl + X `** --> Exit
 *Restart Apache to ensure changes take effect:
 **`sudo systemctl restart apache2`**
-![alt text](nano.png)
+![alt text](Assets/nano.png)
 &nbsp;
 
 #### Step 6: Verify in the Browser
