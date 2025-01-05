@@ -111,8 +111,18 @@ Copy the Public DNS of your instance from the EC2 console.**`ssh -i "webserver m
 ![alt text](Assets/nano.png)
 &nbsp;
 
-#### Step 6: Verify in the Browser
+#### Step 6: Update Own Code website
+* Navigate to the target directory:
+**`sudo nano /var/www/html/`**
+* Clone the repository: Run the following command to clone the GitHub repository:
+**`git clone https://github.com/anuvindhs/CLOUD-is-AWSome.git`**
+* Verify the contents: After cloning, list the contents to ensure the repository was cloned successfully:
+**`ls`**
+![alt text](<Assets/Clone Github website.png>)
+
+&nbsp;
+
+#### Step 7: Verify in the Browser
 *Open the browser and enter the Public IP Address of  EC2 instance:
 **`http://<Your_Public_IP>`**
-
-![alt text](<Assets/EC2 sucessful.png>)
+![alt text](<Assets/Own code website.png>)
