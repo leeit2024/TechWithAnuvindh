@@ -18,3 +18,4 @@
 | 22-12-24   | 02:00       | Hand-on Practical                                              |       |
 | 03-01-25   | 01:00       | Update repo as per request                                     |       |
 |05-01-25    | 02:00       | Team Meeting with Amit and review changes                      |       |
+|06-01-25    | 01:00       | D4 Meeting with Anu -                      |       |
