@@ -18,4 +18,7 @@
 | 22-12-24   | 02:00       | Hand-on Practical                                              |       |
 | 03-01-25   | 01:00       | Update repo as per request                                     |       |
 |05-01-25    | 02:00       | Team Meeting with Amit and review changes                      |       |
-|06-01-25    | 01:00       | D4 Meeting with Anu -                      |       |
+|06-01-25    | 01:00       | D4 Meeting with Anu - update SSH key and research 15 topic                      |       |
+|15-01-25    | 01:00       |Research 15  topic                       |       |
+|16-01-25    | 02:00       |Research 15  topic                       |       |
+|18-01-25    | 03:00       |Research 15 topic                       |       |
