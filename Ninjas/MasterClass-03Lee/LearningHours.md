@@ -21,4 +21,6 @@
 |06-01-25    | 01:00       | D4 Meeting with Anu - update SSH key and research 15 topic                      |       |
 |15-01-25    | 01:00       |Research 15  topic                       |       |
 |16-01-25    | 02:00       |Research 15  topic                       |       |
-|18-01-25    | 03:00       |Research 15 topic                       |       |
+|18-01-25    | 03:00       |Research 15 topic
+|03-02-25    | 01:00       |D5 Meeting with Anu - Refresh the 15 topic and explain the scope of the project                     |       |
+|03-02-25    | 02:00       |updating the D4 Readme file as per request                   |       |

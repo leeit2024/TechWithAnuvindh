@@ -2,7 +2,29 @@
 * **Review pull request changes and update SSH key**
 * **Research on provided topic as below:**
 
-### <u>1. EC2 (Elastic Compute Cloud)</u>
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+  - [1. EC2 (Elastic Compute Cloud)](#1-ec2-elastic-compute-cloud)
+  - [2. Security groups and Elastic IP address](#2-security-groups-and-elastic-ip-address)
+  - [3. S3 (Simple Storage Service)](#3-s3-simple-storage-service)
+  - [4. RDS(Relational Database Service)](#4-rdsrelational-database-service)
+  - [5. Lambda](#5-lambda)
+  - [6. DynamoDB](#6-dynamodb)
+  - [7. VPC (Virtual Private Cloud)](#7-vpc-virtual-private-cloud)
+  - [8. CloudFront](#8-cloudfront)
+  - [9. IAM(Identity and Access Management)](#9-iamidentity-and-access-management)
+  - [10. SES (Simple Email Service) and SNS (Simple Notification Service)](#10-ses-simple-email-service-and-sns-simple-notification-service)
+  - [11. ELB(Elastic Load Balancing)](#11-elbelastic-load-balancing)
+  - [12. CloudWatch](#12-cloudwatch)
+  - [13. Route 53 and its record types](#13-route-53-and-its-record-types)
+  - [14. Amazon Bedrock](#14-amazon-bedrock)
+  - [15. OpenSource](#15-opensource)
+
+
+
+
+
+### 1. EC2 (Elastic Compute Cloud)
 * **Title:** The flexible cloud-based product
 &nbsp;
 * **Introduction:**
@@ -47,7 +69,7 @@ Netflix uses EC2 to stream videos globally and manage high traffic. EC2 helps th
 * **Conclusion:**
 EC2 is a strong and powerful cloud tool that gives businesses flexibility and control. It is ideal for running applications without the hassle of maintaining physical hardware.
 ***
-### <u>2. Security groups and Elastic IP address</u>
+### 2. Security groups and Elastic IP address
 
 
 * **Title:** Security Group and Elastic IP Address in AWS
@@ -96,7 +118,7 @@ A financial company uses Security Groups to block unauthorised access and Elasti
 * **Conclusion:**
 Security Groups and Elastic IPs are important for controlling access and ensuring reliable connections to the AWS resources. They keep the applications safe while maintaining availability.
 ***
-### <u>3. S3 (Simple Storage Service)</u>
+### 3. S3 (Simple Storage Service)
 
 
 * **Title:**
@@ -148,7 +170,7 @@ A photo-sharing app uses S3 to store and deliver millions of images to users. It
 S3 is a simple and effective way to store and access files securely in the cloud. It offers flexibility, reliability, and tools to manage data efficiently. However, cost-effectiveness should be considered with efficient data management.
 &nbsp;
 
-### <u>4. RDS(Relational Database Service)</u>
+### 4. RDS(Relational Database Service)
 
 * **Title:** Easy and Scalable Database Management with RDS
 &nbsp;
@@ -197,7 +219,7 @@ A financial services company uses RDS to manage sensitive data securely and effi
 * **Conclusion:**
 RDS offer a fully managed, scalable solution with high availability and security, making it ideal for businesses needing robust database services.
 ****
-### <u>5. Lambda</u>
+### 5. Lambda
 
 
 * **Title:** Serverless Computing with AWS Lambda
@@ -244,7 +266,7 @@ A logistics company uses Lambda to process data from shipments in real-time.
 Lambda simplifies serverless computing by handling code execution automatically in response to events, reducing infrastructure management while keeping costs low.
 ****
 
-### <u>6. DynamoDB</u>
+### 6. DynamoDB
 
 
 * **Title:** Scalable NoSQL Database with DynamoDB
@@ -293,7 +315,7 @@ A retail company uses DynamoDB to manage product catalogs and process high traff
 * **Conclusion:**
 DynamoDB offers a fully managed, high-performance NoSQL database solution ideal for applications requiring fast, scalable, and flexible data storage.
 ****
-### <u>7. VPC (Virtual Private Cloud)</u>
+### 7. VPC (Virtual Private Cloud)
 
 
 * **Title:** Secure and Isolated Cloud Network with VPC
@@ -342,7 +364,7 @@ A healthcare company uses VPC to securely store and process patient data in comp
 VPC provides a secure, customisable, and scalable virtual network, enabling businesses to isolate resources and control connectivity effectively.
 ********
 
-### <u>8. CloudFront</u>
+### 8. CloudFront
 
 
 * **Title:** Fast Content Delivery with AWS CloudFront
@@ -391,7 +413,7 @@ A gaming company uses CloudFront to serve game updates and patches quickly to pl
 CloudFront speeds up content delivery globally by caching and serving content from multiple locations, ensuring a seamless user experience.
 ********
 
-### <u>9. IAM(Identity and Access Management)</u>
+### 9. IAM(Identity and Access Management)
 
 
 * **Title:**
@@ -445,7 +467,7 @@ A new company startup uses IAM to manage access for team members and third-party
 IAM provides a secure way to manage user access and permissions across AWS services, ensuring data protection and compliance.
 ****
 
-### <u>10. SES (Simple Email Service) and SNS (Simple Notification Service)</u>
+### 10. SES (Simple Email Service) and SNS (Simple Notification Service)
 
 
 * **Title:** Reliable Email and Notification Services
@@ -494,7 +516,7 @@ An e-commerce platform uses SES for order confirmation emails and SNS for real-t
 * **Conclusion:**
 SES and SNS provide robust solutions for email and notification services, helping businesses communicate effectively with their users.
 ****
-### <u>11. ELB(Elastic Load Balancing)</u>
+### 11. ELB(Elastic Load Balancing)
 
 
 * **Title:** Efficient Traffic Distribution with ELB
@@ -543,7 +565,7 @@ A news platform uses ELB to handle millions of concurrent users during peak traf
 * **Conclusion:**
 ELB efficiently distributes traffic, ensuring high availability and performance for applications and websites.
 ****
-### <u>12. CloudWatch</u>
+### 12. CloudWatch
 
 
 * **Title:** Comprehensive Monitoring and Management tool
@@ -593,7 +615,7 @@ A gaming company uses CloudWatch to monitor server performance and player activi
 CloudWatch is a powerful tool for monitoring, managing, and optimizing AWS resources, providing insights and automation for better management.
 ****
 
-### <u>13. Route 53 and its record types</u>
+### 13. Route 53 and its record types
 
 
 * **Title:** Reliable Domain Name System with Route 53
@@ -674,7 +696,7 @@ A global e-commerce site uses Route 53 for routing traffic and managing DNS effi
 Route 53 provides reliable and scalable DNS services for managing domains, routing traffic, and ensuring high performance.
 
 ****
-### <u>14. Amazon Bedrock</u>
+### 14. Amazon Bedrock
 
 
 * **Title:** Simplified Development with Amazon Bedrock
@@ -725,7 +747,7 @@ A startup uses Amazon Bedrock to develop a customer support system powered by AI
 Amazon Bedrock simplifies AI/ML development by providing easy access to multiple models, making it faster and more efficient.
 &nbsp;
 
-### <u>15. OpenSource</u>
+### 15. OpenSource
 
 
 * **Title:** Building and Scaling Applications with Open Source in AWS
