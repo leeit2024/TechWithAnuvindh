@@ -24,3 +24,5 @@
 |18-01-25    | 03:00       |Research 15 topic
 |03-02-25    | 01:00       |D5 Meeting with Anu - Refresh the 15 topic and explain the scope of the project                     |       |
 |03-02-25    | 02:00       |updating the D4 Readme file as per request                   |       |
+|04-02-25    | 02:30       |D6 Meeting with Anu - Three-Tier Architecture and Scaling in AWS               |       |
+|05-02-25    | 03:00       |complete and updated the day 1-6 md files for Anu to approve               |       |
