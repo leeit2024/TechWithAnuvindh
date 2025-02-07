@@ -97,7 +97,7 @@ https://ubuntu.com/tutorials/install-and-configure-wordpress#3-install-wordpress
 Create Apache site for WordPress from https://ubuntu.com/tutorials/install-and-configure-wordpress#4-configure-apache-for-wordpress
 **`cd /srv/www`**
 **`ls`**
-**`sudo nano /etc/apache2/sites-available/wordpress.conf with following lines:`**
+**`sudo nano /etc/apache2/sites-available/wordpress.conf`** with following lines:
 ![alt text](<Assets/enter nano.png>)
 Then copy information below into nano.
 

@@ -26,3 +26,7 @@
 |03-02-25    | 02:00       |updating the D4 Readme file as per request                   |       |
 |04-02-25    | 02:30       |D6 Meeting with Anu - Three-Tier Architecture and Scaling in AWS               |       |
 |05-02-25    | 03:00       |complete and updated the day 1-6 md files for Anu to approve               |       |
+|06-02-25    | 03:00       |D7 Meeting with Anu - continue Configure database & Configure WordPress to connect to the database                |       |
+|06-02-25    | 04:00       |Troubleshooting the Error of connection issue to connect to the database and Wordpress configure page               |       |
+|07-02-25    | 01:30       |D7 Meeting with Anu - continue configure Wordpress and knowledge build up              |       |
+|07-02-25    | 04:30      |Complete D7 & D8 learning and readme file              |       |
