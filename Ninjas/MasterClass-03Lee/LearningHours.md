@@ -30,3 +30,4 @@
 |06-02-25    | 04:00       |Troubleshooting the Error of connection issue to connect to the database and Wordpress configure page               |       |
 |07-02-25    | 01:30       |D7 Meeting with Anu - continue configure Wordpress and knowledge build up              |       |
 |07-02-25    | 04:30      |Complete D7 & D8 learning and readme file              |       |
+|11-02-25    | 03:00      |Update Day 4 , 15 concepts         |       |
