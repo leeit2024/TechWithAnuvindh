@@ -7,6 +7,7 @@
 
 The following instructions are for building an SDS voice chatbot using AWS services.
 
+![alt text](Assets/0.png)
 ## Prerequisites:
 
 - A collection of SDS source files in PDF format for the chatbot to retrieve information.
@@ -259,7 +260,7 @@ Note: if the error "Access denied to aoss:CreateAccessPolicy” occurs check the
 
 ---
 
-### Emergency Intent
+### Emergency Intent (Optional)
 
 1. Click ‘Add intent’, then ‘Add empty intent’.
 
@@ -322,7 +323,7 @@ Note: if the error "Access denied to aoss:CreateAccessPolicy” occurs check the
 6. Click **‘Save Intent’**.
 
 ---
-## Agent Referral Intent
+## Agent Referral Intent (Optional)
 
 1. Click ‘Add intent’ then ‘Add empty intent’.
 
@@ -463,6 +464,9 @@ Once complete, click **‘Test’**. Enter phrases/questions in the **‘Test Dr
 ---
 
 ## Test the Chatbot via Phone
+
+[ICTPro Chat Bot Demo (Youtube link)](https://www.youtube.com/watch?v=It6xVcQNV9M)
+
 
 1. Dial the assigned phone number.
 2. Ask the chatbot sample phrases/questions like:
